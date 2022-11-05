@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+h1{
+    color: white;
+}
+
+.para1{
+    color: black;
+    background-color: yellow;
+    padding: 15px;
+    margin: 5px 10px;
+    border-radius: 15px;
+}
+
+#second{
+    color: black;
+    background-color: lightblue;
+    padding: 15px;
+    margin: 5px 10px;
+    border-radius: 15px;
+}
+
+.third{
+    color: black;
+    background-color: lightsalmon;
+    padding: 15px;
+    margin: 5px 10px;
+    border-radius: 15px;
+}
+
+.first_anchor {
+    margin-top: 28px ;
+
+}
+
+.second_anchor {
+    margin-top: 28px ;
+
+}
+
+
+a{
+    text-decoration: none;
+    background-color: rgb(252, 249, 18);
+    padding: 10px;
+    border-radius: 8px;
+    color: black;
+
+}
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: yellow;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////// */
+/* Practice Set Chapter 1 Css Portion */
+
+
+/* 
+ Q No : 1 -->
+ Create a website with a color red div which has a backround color of red and color white .
+ */
+
+
+.red_sec{
+    color: white;
+    background-color: red;
+    width:100%;
+    height: 50px;
+    margin-top: 20px;
+
+}
+
+
+
+/* Q No 3
+Create a Css class one and verify that it works on multiple elements . */
+
+
+.one{
+    width: 50%;
+    color: rgb(7, 7, 7);
+    background-color: yellow;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+
+
+
+/* 
+Q No 4  
+Create  multiple css classes and verify that all of these work on the same element. */
+
+
+.bg-blue , color-balck , radius{
+    background-color: lightblue;
+    color: black;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+
+/* Q No : 5 */
+/* Have a look at the MDN CSS reference and try to play around with few  key : vaue css rules. */
